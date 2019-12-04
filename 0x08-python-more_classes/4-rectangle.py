@@ -50,7 +50,7 @@ class Rectangle:
                 cadena.append('#')
             if i is not self.__height - 1:
                 cadena.append('\n')
-        return " ".join(cadena)
+        return "".join(cadena)
 
     def __repr__(self):
 
