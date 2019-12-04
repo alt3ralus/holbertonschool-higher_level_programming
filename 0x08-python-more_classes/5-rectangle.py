@@ -54,8 +54,9 @@ class Rectangle:
 
     def __repr__(self):
 
-        cdn = "Rectangle({:d}, {:d})".format(eval(str(self.__width)), eval(str(self.__height)))
-        return (cdn)
+        cdn = "Rectangle({:d}, {:d})".format(eval(str(self.__width)),
+                                             eval(str(self.__height)))
+        return(cdn)
 
     def __del__(self):
 
