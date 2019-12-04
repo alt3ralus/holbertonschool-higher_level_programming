@@ -41,7 +41,7 @@ class Rectangle:
             return 0
 
     def __str__(self):
-        cadena= []
+        cadena = []
         if self.__width == 0 or self.__height == 0:
             return ('')
 
@@ -54,5 +54,6 @@ class Rectangle:
 
     def __repr__(self):
 
-        cdn = "Rectangle({:d}, {:d})".format(eval(str(self.__width)), eval(str(self.__height)))
+        cdn = "Rectangle({:d}, {:d})".format(eval(str(self.__width)),
+                                             eval(str(self.__height)))
         return (cdn)
