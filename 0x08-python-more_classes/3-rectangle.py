@@ -41,7 +41,13 @@ class Rectangle:
             return 0
 
     def __str__(self):
-        for x in range(self.__height):
+        cadena= []
+        if self.__width == 0 or self.__height == 0:
+            return ('')
+
+        for i in range(self.__height):
             for j in range(self.__width):
-                print("#", end="")
-            print()
+                cadena.append('#')
+            if i is not self.__height - 1:
+                cadena.append('\n')
+        return " ".join(cadena)
