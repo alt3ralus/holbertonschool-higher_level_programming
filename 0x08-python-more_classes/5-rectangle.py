@@ -41,7 +41,7 @@ class Rectangle:
             return 0
 
     def __str__(self):
-        cadena= []
+        cadena = []
         if self.__width == 0 or self.__height == 0:
             return ('')
 
