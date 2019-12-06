@@ -1,0 +1,19 @@
+"""test	print_sorted method"""
+>>> Lista = __import__('1-my_list').MyList
+
+>>> my_list = Lista()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.print_sorted()
+[1, 2, 4]
+
+>>> nueva = Lista([2, 5, 6, 1, 4])
+>>> nueva.print_sorted()
+[1, 2, 4, 5, 6]
+>>> nueva
+[2, 5, 6, 1, 4]
+
+>>> nueva = Lista([True, False])
+>>> nueva.print_sorted()
+[False, True]
